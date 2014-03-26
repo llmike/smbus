@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<module name="smb-ich">
+	<type>Element</type>
+	<classification>Runtime</classification>
+
+        <description>
+	<short>SMBus driver of Intel ICH</short>
+              <abstract>
+		<![CDATA[The smb-ich is a SMBus driver for Intel ICH.]]>
+                </abstract>
+        </description>
+
+	<supports>
+		<availability ref="ostargets"/>
+	</supports>
+
+	<source available="false">
+		<location type="">.</location>
+	</source>
+
+	<GroupOwner>os</GroupOwner>
+
+	<contents>
+		<component id="smb-ich" generated="true">
+			<location basedir="x86/o/" runtime="true">smb-ich</location>
+		</component>
+
+	</contents>
+
+	<requires>
+	</requires>
+
+</module>

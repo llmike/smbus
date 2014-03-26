@@ -1,0 +1,17 @@
+%C - SMBus communication driver for ACPI Embedded Controller (EC).
+
+    Sony VPCW22Z1R doesn't provide ACPI tables for Embedded Controller and
+SMBus devices. By default driver assumes EC_SC register address 0x66 and
+EC_DATA register address 0x62. Sony VPCW22Z1R has SMBus host controller at
+offset 0x18 of Embedded Controller, which is also not listed in ACPI tables.
+
+Supported notebooks by default (no need to -o option):
+    Sony VPCW22Z1R
+    Asus EEE PC 1215N
+    Fujitsu LifeBook AH531
+    Microstar U90/U100
+
+Options:
+    -o      Offset to SMBus host controller inside EC space [Default is autodetect]
+    -p      Setup driver priority [Default is 21]
+    -v      Increase verbosity

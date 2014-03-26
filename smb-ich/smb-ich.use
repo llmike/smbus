@@ -1,0 +1,10 @@
+%C - SMBus communication driver for Intel ICH/PCH.
+
+Supported devices:
+    PCH C200, PCH X79, Patsburg, Panther Point, DH89xxCC,
+    ICH5, ESB 6300, ICH6, ESB 63x0, ICH7/NM10, ICH8, ICH9,
+    ICH10, PCH 3400, EP80579, Lynx Point.
+
+Options:
+    -p      Setup driver priority [Default is 21]
+    -v      Increase verbosity

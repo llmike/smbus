@@ -1,0 +1,9 @@
+%C - Utility for dumping content of SMBUS devices.
+
+Devices which do not respond on BYTE read or WORD read command, will not
+be detected.
+
+Options:
+    -b use read byte command to determine device presence [Default]
+    -w use read word command to determine device presence Use with
+       caution, it can hang the SMBUS

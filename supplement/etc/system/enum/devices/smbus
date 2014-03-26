@@ -1,0 +1,32 @@
+#
+# Definitions for audio devices
+#
+
+device(pci, ven=$(PCI_VEND_INTEL), dev=1c22)		# Intel PCH C200
+device(pci, ven=$(PCI_VEND_INTEL), dev=1d22)		# Intel PCH X79
+device(pci, ven=$(PCI_VEND_INTEL), dev=1d70)		# Intel PCH X79
+device(pci, ven=$(PCI_VEND_INTEL), dev=1d71)		# Intel Patsburg
+device(pci, ven=$(PCI_VEND_INTEL), dev=1d72)		# Intel Patsburg
+device(pci, ven=$(PCI_VEND_INTEL), dev=1e22)		# Intel Pather Point
+device(pci, ven=$(PCI_VEND_INTEL), dev=1f3c)		# Intel Avoton
+device(pci, ven=$(PCI_VEND_INTEL), dev=2330)		# Intel DH89xxCC
+device(pci, ven=$(PCI_VEND_INTEL), dev=23b0)		# Intel Coleto Creek
+device(pci, ven=$(PCI_VEND_INTEL), dev=24d3)		# Intel ICH5
+device(pci, ven=$(PCI_VEND_INTEL), dev=25a4)		# Intel ESB 6300
+device(pci, ven=$(PCI_VEND_INTEL), dev=266a)		# Intel ICH6
+device(pci, ven=$(PCI_VEND_INTEL), dev=269b)		# Intel ESB 63x0
+device(pci, ven=$(PCI_VEND_INTEL), dev=27da)		# Intel ICH7/NM10
+device(pci, ven=$(PCI_VEND_INTEL), dev=283e)		# Intel ICH8
+device(pci, ven=$(PCI_VEND_INTEL), dev=2930)		# Intel ICH9
+device(pci, ven=$(PCI_VEND_INTEL), dev=3a30)		# Intel ICH10
+device(pci, ven=$(PCI_VEND_INTEL), dev=3a60)		# Intel ICH10
+device(pci, ven=$(PCI_VEND_INTEL), dev=3b30)		# Intel PCH 3400
+device(pci, ven=$(PCI_VEND_INTEL), dev=5032)		# Intel EP80579
+device(pci, ven=$(PCI_VEND_INTEL), dev=8c22)		# Intel Lynx Point
+device(pci, ven=$(PCI_VEND_INTEL), dev=8d22)		# Intel Wellsburg
+device(pci, ven=$(PCI_VEND_INTEL), dev=8d7d)		# Intel Wellsburg
+device(pci, ven=$(PCI_VEND_INTEL), dev=8d7e)		# Intel Wellsburg
+device(pci, ven=$(PCI_VEND_INTEL), dev=8d7f)		# Intel Wellsburg
+device(pci, ven=$(PCI_VEND_INTEL), dev=9c22)		# Intel Lynx Point-LP
+device(pci, ven=$(PCI_VEND_INTEL), dev=9ca2)		# Intel Wildcat Point-LP
+	start(smb-ich,)

@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<module name="smb-ec">
+  <classification>Runtime</classification>
+  <description>
+    <short>SMBus driver of ACPI Embedded Controller</short>
+    <abstract><![CDATA[
+		The smb-ec is a SMBus driver for ACPI Embedded Controller.
+                ]]></abstract>
+  </description>
+  <supports>
+    <availability>
+      <os name="nto">
+        <cpu isa="ppc">
+          <byteOrder>be</byteOrder>
+          <byteOrder>be.spe</byteOrder>
+        </cpu>
+        <cpu isa="sh">
+          <byteOrder>le</byteOrder>
+        </cpu>
+        <cpu isa="arm">
+          <byteOrder>le</byteOrder>
+        </cpu>
+        <cpu isa="x86"/>
+        <cpu isa="mips">
+          <byteOrder>le</byteOrder>
+          <byteOrder>be</byteOrder>
+        </cpu>
+      </os>
+    </availability>
+  </supports>
+  <contents>
+    <component id="smb-ec" generated="true">
+      <location basedir="x86/o/">smb-ec</location>
+    </component>
+  </contents>
+  <requires/>
+</module>

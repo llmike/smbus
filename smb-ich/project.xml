@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<module name="smb-ich">
+  <classification>Runtime</classification>
+  <description>
+    <short>SMBus driver of Intel ICH/PCH</short>
+    <abstract><![CDATA[
+		The smb-ich is a SMBus driver for Intel ICH/PCH.
+                ]]></abstract>
+  </description>
+  <supports>
+    <availability>
+      <os name="nto">
+        <cpu isa="x86"/>
+      </os>
+    </availability>
+  </supports>
+  <contents>
+    <component id="smb-ich" generated="true">
+      <location basedir="x86/o/">smb-ich</location>
+    </component>
+  </contents>
+  <requires/>
+</module>

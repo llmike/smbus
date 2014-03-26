@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<module name="smb-ec">
+	<type>Element</type>
+	<classification>Runtime</classification>
+
+        <description>
+	<short>SMBus driver of ACPI Embedded Controller</short>
+              <abstract>
+		<![CDATA[The smb-ec is a SMBus driver for ACPI Embedded Controller.]]>
+                </abstract>
+        </description>
+
+	<supports>
+		<availability ref="ostargets"/>
+	</supports>
+
+	<source available="false">
+		<location type="">.</location>
+	</source>
+
+	<GroupOwner>os</GroupOwner>
+
+	<contents>
+		<component id="smb-ec" generated="true">
+			<location basedir="x86/o/" runtime="true">smb-ec</location>
+		</component>
+
+	</contents>
+
+	<requires>
+	</requires>
+
+</module>

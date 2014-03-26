@@ -1,0 +1,15 @@
+#
+# Definitions for pci classes
+#
+
+all
+
+# Additional serial subclass for smbus
+#
+#	set(PCI_CLASS_SERIAL, 0c)
+#		set(PCI_SERIAL_FIREWIRE, 00)
+#		set(PCI_SERIAL_ACCESSBUS, 01)
+#		set(PCI_SERIAL_SSA, 02)
+#		set(PCI_SERIAL_USB, 03)
+#		set(PCI_SERIAL_FIBRECHANNEL, 04)
+		set(PCI_SERIAL_SMBUS, 05)
