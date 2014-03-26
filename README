@@ -2,3 +2,17 @@ smbus
 =====
 
 Miscellaneous SMBUS utilities and tools for QNX 6.x.
+
+/bin - all precompiled utilities for QNX 6.5/6.6.
+/dmidecode-2.11 - QNX 6.x port of well known dmidecode utilities. Do not require any drivers.
+/dump_ec - Utility for dumping content of ACPI Embedded Controller registers. Do not require any drivers.
+/dump_g781 - Utility for dumping g.781 temperature sensor connected to SMBUS. Requires SMBUS driver.
+/dump_smbus - Utility for dumping content of all SMBUS connected devices. Requires SMBUS driver.
+/dump_spd - Utility for dumping memory module SPD EEPROM. Requires SMBUS driver.
+/pmtools-20110323 - QNX 6.x port of acpidump utility. Useful for debugging purpouses. Do not require any drivers.
+/smart_battery/phsb - Small QNX 6.x/Photon utility which reports status of Smart Battery. Requires EC SMBUS driver.
+/smart_battery/sbread - Small QNX 6.x console utility which reports very detailed information about Smart Battery. Requires EC SMBUS driver.
+/smb-ec - Embedded Controller SMBUS driver for QNX 6.x.
+/smb-ich - Intel ICH/PCH SMBUS driver for QNX 6.x.
+/sony_vpcw22z1r - Small utility which reports status of WiFi and lid for Sony VPC22Z1R netbook. Do not require any drivers.
+/supplement - Set of scripts required to add posibility of autostart of smbus drivers (works till QNX 6.5).
